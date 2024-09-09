@@ -1,0 +1,77 @@
+
+.dashboard{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    gap: 10px;
+    position: fixed;
+}
+.dash-container{
+    height: 15%;
+    width: 20%;
+    background-color: navajowhite;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 5px 20px;
+    animation:  side-in 3s;
+}
+
+.dash-container-1{
+    height: 15%;
+    width: 20%;
+    background-color: #ffb4a2;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 5px 20px;
+    animation:  side-in 3s;
+}
+
+.dash-container-2{
+    height: 15%;
+    width: 20%;
+    background-color:#e5989b;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 5px 20px;
+    animation:  side-in 3s;
+}
+
+.dash-container-3{
+    height: 15%;
+    width: 20%;
+    background-color: #b5838d;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 5px 20px;
+    animation:  side-in 3s;
+}
+.dash-conent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+@keyframes side-in {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

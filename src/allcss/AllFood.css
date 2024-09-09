@@ -1,0 +1,64 @@
+.all-card {
+    /* margin-bottom: 10px; */
+    margin-top: 10%;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.card-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.all-h6 {
+    display: flex;
+    margin-left: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: rgb(220, 20, 20);
+
+}
+
+.all-delete {
+    background-color: aliceblue;
+    border-radius: 20px;
+    gap: 10px;
+    margin-right: 10px;
+    font-weight: 800;
+    transition: transform 0.3s ease-in-out;
+}
+
+.all-delete:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.all-update {
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-weight: 800;
+    transition: transform 0.3s ease-in-out;
+}
+
+.all-update:hover {
+    background-color: burlywood;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+/* .all-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+.all-card:hover {
+background-color:mistyrose;
+cursor: pointer;
+transform: scale(1.1, 1.1);
+}
